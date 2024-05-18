@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFAppHelloWorld", "WPFAppH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsHelloWorld", "WinFormsHelloWorld\WinFormsHelloWorld.csproj", "{111F3B2A-9227-4ECB-B3C0-6C0D45A242A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsPictureViewer", "WinFormsPictureViewer\WinFormsPictureViewer.csproj", "{8CEBE31F-B44B-4F4E-B977-DD493468E71B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,26 @@ Global
 		{111F3B2A-9227-4ECB-B3C0-6C0D45A242A1}.Release|x64.Build.0 = Release|Any CPU
 		{111F3B2A-9227-4ECB-B3C0-6C0D45A242A1}.Release|x86.ActiveCfg = Release|Any CPU
 		{111F3B2A-9227-4ECB-B3C0-6C0D45A242A1}.Release|x86.Build.0 = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|x64.Build.0 = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Debug|x86.Build.0 = Debug|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|ARM.Build.0 = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|ARM64.Build.0 = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|x64.ActiveCfg = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|x64.Build.0 = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|x86.ActiveCfg = Release|Any CPU
+		{8CEBE31F-B44B-4F4E-B977-DD493468E71B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
