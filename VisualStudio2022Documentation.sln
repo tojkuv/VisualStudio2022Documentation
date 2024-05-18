@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinUI3HelloWorld", "WinUI3H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWPHelloWorld", "UWPHelloWorld\UWPHelloWorld.csproj", "{02A39837-F81E-4E17-9735-6970402AAD4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAppHelloWorld", "WPFAppHelloWorld\WPFAppHelloWorld.csproj", "{932AE753-99A4-4E9C-85F4-67D31C46706B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,26 @@ Global
 		{02A39837-F81E-4E17-9735-6970402AAD4F}.Release|x86.ActiveCfg = Release|x86
 		{02A39837-F81E-4E17-9735-6970402AAD4F}.Release|x86.Build.0 = Release|x86
 		{02A39837-F81E-4E17-9735-6970402AAD4F}.Release|x86.Deploy.0 = Release|x86
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|x64.Build.0 = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Debug|x86.Build.0 = Debug|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|ARM.Build.0 = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|ARM64.Build.0 = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|x64.ActiveCfg = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|x64.Build.0 = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|x86.ActiveCfg = Release|Any CPU
+		{932AE753-99A4-4E9C-85F4-67D31C46706B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

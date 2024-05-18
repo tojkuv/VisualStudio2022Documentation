@@ -25,7 +25,7 @@ namespace UWPHelloWorld
         public MainPage()
         {
             this.InitializeComponent();
-        }z
+        }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
