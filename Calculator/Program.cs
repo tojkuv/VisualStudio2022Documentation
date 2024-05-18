@@ -1,10 +1,12 @@
 ﻿using System.Text.RegularExpressions;
+using CalculatorProgram;
 
 class Program
 { 
     static void Main(string[] args)
     {
         bool endApp = false;
+        Calculator calculator = new Calculator();
 
         // Display title as the C# console calculator app.
         Console.WriteLine("Console Calculator in C#");
@@ -59,7 +61,7 @@ class Program
             {
                 try
                 {
-                    result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
+                    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
                     if (double.IsNaN(result))
                         Console.WriteLine("This operation will result in a mathematical error.\n");
                     else
@@ -79,34 +81,8 @@ class Program
 
             Console.WriteLine("\n");
         }
+
+        calculator.Finish();
         return;
-    }
-}
-
-class Calculator
-{ 
-    public static double DoOperation(double num1, double num2, string op)
-    {
-        double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error;
-
-        // Use a switch statement to do the math.
-        switch (op)
-        {
-            case "a":
-                result = num1 + num2;
-                return result;
-            case "s":
-                result = num1 - num2;
-                return result;
-            case "m":
-                result = num1 * num2;
-                return result;
-            case "d":
-                if (num2 != 0)
-                    result = num1 / num2;
-                return result;
-            default:
-                return result;
-        }
     }
 }
